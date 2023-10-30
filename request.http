@@ -1,0 +1,35 @@
+POST http://localhost:3333/users
+content-type: application/json
+
+{
+    "name": "Teste01",
+    "email": "teste@gmail.com",
+    "password": "12345678",
+    "confirm_password": "12345678"
+}
+
+### 
+
+POST http://localhost:3333/thoughts
+content-type: application/json
+
+{
+    "title": "Pensamento 04",
+    "description": "Pensamento do dia: Quero money"
+}
+###
+GET http://localhost:3333/thoughts
+
+### 
+GET http://localhost:3333/thought/4
+###
+PUT http://localhost:3333/thoght/1
+content-type: application/json
+
+{
+    "title": "Pensamento 01",
+    "description": "Pensamento do dia: Quero comer"
+}
+
+###
+DELETE http://localhost:3333/thought 

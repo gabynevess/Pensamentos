@@ -1,0 +1,28 @@
+iniciar o gerenciador de pacotes do node(npm)
+npm init -y 
+
+//  DEPENDÊNCIAS DA APLICAÇÃO:
+
+instalar: 
+express // npm install express
+mysql2 //
+sequelize // npm install sequelize-cli -D
+handlebars //
+
+// ESTRUTURA DA APLICAÇÃO:
+
+criar pasta SRC, ou seja a pasta raiz do projeto nela estão os códigos da aplicação
+
+criar pasta CONFIG, dentro dela cria o arquivo DATABASE.JS, esse arquivo faz a configuração do banco
+
+dentro da pasta SRC, cria uma outra pasta chamada DATABASE, nela vai ficar a conexão com o banco 
+
+dentro da pasta DATABASE, cria outra pasta chamada MIGRATIONS e um arquivo chamado INDEX.JS
+
+dentro da pasta SRC, cria a pasta MODEL
+
+dentro da pasta SRC, cria a pasta VIEWS
+
+dentro da pasta VIEWS cria a pasta LAYOUT
+
+dentro da pasta SRC, cria a pasta CONTROLLERS
